@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "endorheic-lake-resilience"
+version: 0.0.1
+date-released: 2026-10-24
+license: MIT
+repository-code: "https://github.com/GenesisAeon/endorheic-lake-resilience"
+authors:
+  - family-names: "Römer"
+    given-names: "Johann Benjamin"
+    affiliation: "Independent researcher, Kirchhain, Germany"
+    email: "jbroemer@web.de"
