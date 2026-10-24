@@ -1,9 +1,9 @@
-# endorheic-lake-resilience
+# endorheic-lake-resilience-utac
 
 **Status: scaffold (v0.0.1) — no analysis, no results.** Nothing in this repository is a finding yet.
 
 Author: Johann Benjamin Römer, Independent researcher, Kirchhain, Germany
-Register: P-number: TBD · family: TBD
+Register: P134 · class KLIMA-LAND-09 · `-utac` family (GenesisAeon, decided 2026-10-24)
 
 ## Motivation
 Tuz Gölü (Central Anatolia, Türkiye) is a shallow (< 0.5 m in most places), hypersaline terminal lake and the main breeding site of the Greater Flamingo in Türkiye. August Landsat classifications show water covering > 20 % of the lake bed in most years 1985–2000 but < 20 % in almost every August 2001–2016, with complete desiccation in 2008 and 2016. The correlation between salt-covered area and an aridity index strengthened from r = −0.46 (before 2000) to r = −0.88 (after 2000) (Aydın, Erlat & Türkeş 2020). The authors attribute this rising drought sensitivity to groundwater abstraction, warming and more frequent droughts. In the surrounding Konya Closed Basin (~50,000 km²), GRACE and well data show declining groundwater storage, InSAR shows subsidence of up to 90 mm/yr, and sinkhole (obruk) formation has accelerated (Orhan et al. 2024; Gökkaya, Gutiérrez & Tunçel 2026).
@@ -43,7 +43,7 @@ Lake Urmia, Aral Sea, Great Salt Lake, Lake Poopó, Dead Sea; controls without t
 | DSİ / MGM (Türkiye) | wells, stations | restrictive — **not to be stored in this public repo** |
 
 ## Package layout
-`src/endorheic_lake_resilience/`: `ingest` (download/STAC), `surface` (water/salt classification), `waterbalance` (budget residual, attribution), `ews` (early-warning statistics, via P97), `compare` (multi-lake), `report` (figures). All modules are empty stubs.
+`src/endorheic_lake_resilience_utac/`: `ingest` (download/STAC), `surface` (water/salt classification), `waterbalance` (budget residual, attribution), `ews` (early-warning statistics, via P97), `compare` (multi-lake), `report` (figures). All modules are empty stubs.
 
 ## Milestones
 - **M1** Tuz surface series; reproduce Aydın et al. (2020) August values; H1 with estimated breakpoint; pre-registered protocol.
